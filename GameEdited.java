@@ -14,6 +14,12 @@ public class Game {
      switch (currentLocation) {
         case 0: message = "Dexter's Lab";
                 break;
+		case 1: message = "Dexter's Room";
+		        break;
+		case 2: message = "DeDe's Room";
+				break;
+		case 3: message = "Living Room";
+				break;
         default: message = "currentLocation does not compute.";
      }
      System.out.println(message);
